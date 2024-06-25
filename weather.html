@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="searchbox">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <div class="middel">
+            <img src="images/clear.png">
+            <h1 class="temp">20°c</h1>
+            <h2 class="city">New York</h2>
+        </div>
+        <div class="details">
+            <div class="outer_humid">
+                <img src="images/humidity.png">
+                <div class="humidity">
+                 <p id="humidity_amount">30%</p>
+                 <p>Humidity</p>
+                </div>
+            </div>
+            <div class="outer_speed">
+                <img src="images/wind.png">
+                <div class="speed">
+                  <p id="wind_speed">50 km/h</p>
+                  <p>Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
